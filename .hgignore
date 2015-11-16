@@ -1,0 +1,26 @@
+syntax: glob
+
+*~
+*.swp
+.#*
+*.pyc
+*.pyo
+*.pyd
+__pycache__/*
+
+*.so
+
+tmp/*
+build/*
+dist/*
+docs/_build/*
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+logdict*.log
+warn*.txt
+
+waf-?.?.?-*/*
+.lock-waf*
+
